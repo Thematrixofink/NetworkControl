@@ -1,0 +1,15 @@
+# 测试配置文件
+server:
+  port: 8101
+
+cluster:
+  defaultBandwidth: 1Gbit
+  username: 
+  password: 
+  servers:
+    - name: 
+      ip: 
+      port: 
+      nic-name: 
+
+

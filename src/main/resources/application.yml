@@ -1,0 +1,33 @@
+# 公共配置文件
+spring:
+  application:
+    name: NetworkManagerService
+  # 默认 dev 环境
+  profiles:
+    active: test
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  address: 0.0.0.0
+  port: 8101
+  servlet:
+    context-path: /api
+
+cluster:
+  defaultBandwidth: 1000mbit
+  username: 
+  password: 
+  servers:
+    - name: 
+      ip: 
+      port: 
+      nic-name: 
+    - name: 
+      ip: 
+      port: 
+      nic-name:
+
+
